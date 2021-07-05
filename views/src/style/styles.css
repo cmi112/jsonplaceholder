@@ -1,0 +1,28 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  background-color: aqua;
+  height: 100px;
+  width: 100%;
+}
+li{
+  list-style: none;
+ 
+}
+li>a{
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+
+}
+.sticky{
+  color: red;
+  overflow: hidden;
+  background-color: rgb(229, 120, 120);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+}
